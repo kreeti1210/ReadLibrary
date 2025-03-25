@@ -1,0 +1,17 @@
+{
+  "name": "readlibrary",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "dev": "http://127.0.0.1:5500/"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {}
+}
