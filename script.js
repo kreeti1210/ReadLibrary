@@ -176,3 +176,11 @@ function sortBooks(books) {
      }
    };
 
+function clearSearch() {
+ document.getElementById("search").value = "";
+ if (view === "list") {
+    listView(books);
+  } else if (view === "grid") {
+    GridView(books);
+  }
+}
